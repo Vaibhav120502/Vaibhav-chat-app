@@ -34,7 +34,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "https://vaibhav-chat-app-4.onrender.com",
+    origin: "http://localhost:3000",
     credentials: true,
   },
 });
